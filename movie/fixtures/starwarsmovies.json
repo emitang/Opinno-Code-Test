@@ -1,0 +1,134 @@
+[
+    {
+        "pk": 1,
+        "model": "movie.Movie",
+        "fields": {
+            "name": "Episode IV - A New Hope",
+            "director": "George Lucas", 
+            "arc": "Original Trilogy", 
+            "release_date": "1977-05-25", 
+            "rating": 93,
+            "summary": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader."
+        }
+    },
+    {
+        "pk": 2,
+        "model": "movie.Movie",
+        "fields": {
+            "name": "Episode V - The Empire Strikes Back",
+            "director": "Irvin Kershner", 
+            "arc": "Original Trilogy", 
+            "release_date": "1980-05-21", 
+            "rating": 95,
+            "summary": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader."
+        }
+    },
+    {
+        "pk": 3,
+        "model": "movie.Movie",
+        "fields": {
+            "name": "Episode VI - The Return of the Jedi",
+            "director": "Richard Marquand", 
+            "arc": "Original Trilogy", 
+            "release_date": "1983-05-25", 
+            "rating": 81,
+            "summary": "After a daring mission to rescue Han Solo from Jabba the Hutt, the Rebels dispatch to Endor to destroy the second Death Star. Meanwhile, Luke struggles to help Darth Vader back from the dark side without falling into the Emperor's trap."
+        }
+    },
+    {
+        "pk": 4,
+        "model": "movie.Movie",
+        "fields": {
+            "name": "Episode I - The Phantom Menace",
+            "director": "George Lucas", 
+            "arc": "Prequel Trilogy", 
+            "release_date": "1999-05-19", 
+            "rating": 54,
+            "summary": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their old glory."
+        }
+    },
+    {
+        "pk": 5,
+        "model": "movie.Movie",
+        "fields": {
+            "name": "Episode II - Attack of the Clones",
+            "director": "George Lucas", 
+            "arc": "Prequel Trilogy", 
+            "release_date": "2002-05-16", 
+            "rating": 65,
+            "summary": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi."
+        }
+    },
+    {
+        "pk": 6,
+        "model": "movie.Movie",
+        "fields": {
+            "name": "Episode III - Revenge of the Sith",
+            "director": "George Lucas", 
+            "arc": "Prequel Trilogy", 
+            "release_date": "2005-05-19", 
+            "rating": 80,
+            "summary": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy."
+        }
+    },
+    {
+        "pk": 7,
+        "model": "movie.Movie",
+        "fields": {
+            "name": "Episode VII - The Force Awakens",
+            "director": "J. J. Abrams", 
+            "arc": "Sequel Trilogy", 
+            "release_date": "2015-12-18", 
+            "rating": 93,
+            "summary": "Three decades after the Empire's defeat, a new threat arises in the militant First Order. Defected stormtrooper Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker."
+        }
+    },
+    {
+        "pk": 8,
+        "model": "movie.Movie",
+        "fields": {
+            "name": "Episode VIII - The Last Jedi",
+            "director": "Rian Johnson", 
+            "arc": "Sequel Trilogy", 
+            "release_date": "2017-12-17", 
+            "rating": 91,
+            "summary": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order."
+        }
+    },
+    {
+        "pk": 9,
+        "model": "movie.Movie",
+        "fields": {
+            "name": "Episode IX - The Rise of Skywalker",
+            "director": "J. J. Abrams", 
+            "arc": "Sequel Trilogy", 
+            "release_date": "2019-12-20", 
+            "rating": 0,
+            "summary": "The surviving Resistance faces the First Order once more in the final chapter of the Skywalker saga."
+        }
+    },
+    {
+        "pk": 10,
+        "model": "movie.Movie",
+        "fields": {
+            "name": "Rogue One",
+            "director": "Gareth Edwards", 
+            "arc": "Standalone", 
+            "release_date": "2016-12-16", 
+            "rating": 84,
+            "summary": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans."
+        }
+    },
+    {
+        "pk": 11,
+        "model": "movie.Movie",
+        "fields": {
+            "name": "Solo",
+            "director": "Ron Howard", 
+            "arc": "Standalone", 
+            "release_date": "2018-05-25", 
+            "rating": 70,
+            "summary": "During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion."
+        }
+    }
+]
