@@ -59,7 +59,7 @@ ROOT_URLCONF = 'starwars.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['movie'],
+        'DIRS': ['movie', 'movie/movie'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -1,20 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Movie_Show</title>
-</head>
-<body>
-	<h1>The Star Wars Movies</h1>
-	<div>
-		<ul>
-			{% for mov in movie %}
-			<li>
-				<h2>Name {{ mov.name }}</h2>
-				<p> Director {{ mov.director}}</p>
-				<p> Arc {{ mov.arc}}</p>
-			</li>
-			{% endfor %}
-		</ul>
-	</div>
-</body>
-</html>
+{% extends "base.html" %}
+{% block page_content %}
+<h1>Star Wars</h1>
+<div>
+	<ul>
+		{% for mov in movie %}
+		<li>
+			<h2>{{ mov.name }}</h2>
+			<p> Directed by: {{ mov.director }}</p>
+			<p> Arc: {{ mov.arc }}</p>
+			<p> {{ mov.summary }}</p> 
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock %}
