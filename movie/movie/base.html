@@ -10,7 +10,6 @@
 		body {
 			width: 100%;
 			height: 100%;
-			overflow: hidden;
 			background: #000;
 			margin: 0;
 		}
@@ -19,7 +18,7 @@
 			justify-content: center;
 			height: 800px;
 			perspective: 400px;
-			color: #ff6;
+			color: #f9d71c;
 			font: 700 1em "News Cycle", sans-serif;
   			font-size: 500%;
   			letter-spacing: 6px;
@@ -53,16 +52,31 @@
 		ul {
 			list-style-type: none;
 		}
+		a {
+			color: #f9d71c;
+		}
+		a:hover {
+			color: #ff6
+		}
+		a:active {
+			color: #ff6
+		}
 	</style>
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Star_Wars_Yellow_Logo.svg/1268px-Star_Wars_Yellow_Logo.svg.png" alt="starwarslogo" width=20% align="center">
+			</a>
+		</div>
+		<ol class="breadcrumb bg-dark" align="center">
+			<li class="breadcrumb-item"><a href="/movie/">Home</a></li>
+			{% block nav_content %}{% endblock %}
+		</ol>
+	</nav>
 	<div class="container">
-		<div class="fade"></div>
-		<section class="star-wars">
-			<div class="crawl">
-					{% block page_content %}{% endblock %}
-			</div>
-		</section>
+		{% block page_content %}{% endblock %}
 	</div>
 </body>
 </html>

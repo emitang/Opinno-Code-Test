@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block nav_content %}
+			<li class="breadcrumb-item"><a href="#">{{ movie.name }}</a></li>
+{% endblock %}
+
+{% block page_content %}
+	<div class="fade"></div>
+		<section class="star-wars">
+			<div class="crawl">
+				<ul>
+					<li>
+						<p>{{ movie.name }}</a></p>
+						<p> Directed by: {{ movie.director }}</p>
+						<p> Arc: {{ movie.arc }}</p>
+						<p> {{ movie.summary }}</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+{% endblock %}
